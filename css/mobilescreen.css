@@ -1,0 +1,120 @@
+@media (max-width: 767px) {
+  .secondary_pic_1, .secondary_pic_2, .about_the_yard, .points, .map, .footer_img, .choose_flat_full, .request {display: none;}
+
+  .seasons .media_br, .characteristics .media_br {display: initial;}
+
+  .choose_flat_mobile, .reqest_mobile_version {display: block;}
+
+  .map_mobile {display: block;
+               width: 281px;
+               height: 239px;}
+
+.font_b {font-weight: bold;}
+
+.footer_mobile_img {display: block;
+                width: 319px;
+                height: 413px;}
+
+.choose_flat {
+  height: auto;
+}
+
+.square, .cost {
+ display: inline-block;
+ width: 100%;
+}
+
+  .main_pic img {
+width: auto;
+max-width: 350px;
+margin-right: 30px;
+   }
+}
+
+.reqest_mobile {
+  background-color: #F6F6FA;
+  border-radius: 4px;
+}
+
+.reqest_mobile button, .download_more_btn {
+  width: 100%;
+}
+
+.reqest_mobile button p, .download_more_btn p {
+    color: #FFF;
+}
+
+.request_section_1, .request_section_2, .request_section_3 {
+  position: relative;
+  margin-bottom: 3vh;
+}
+
+.house_number {
+  height: 50px;
+}
+
+.request_section_1 .house_number::after {
+  content: "№1";
+}
+
+.request_section_1 .amount_of_rooms::after {
+  content: "1-комнатная";
+}
+
+.request_section_1 .floor_number::after {
+  content: "10";
+}
+
+.request_section_1 .entrance_number::after {
+  content: "2";
+}
+
+.request_section_1 .square_number::after {
+content:"32.47";
+}
+
+.request_section_1 .house_number {
+  height: 50px;
+}
+
+.request_section_1 .house_number::after {
+  content: "№1";
+}
+
+.request_section_1 .amount_of_rooms::after, .request_section_2 .amount_of_rooms::after, .request_section_3 .amount_of_rooms::after {
+  content: "1-комнатная";
+}
+
+.request_section_1 .floor_number::after, .request_section_2 .floor_number::after, .request_section_3 .floor_number::after {
+  content: "10";
+}
+
+.request_section_1 .entrance_number::after,.request_section_2 .entrance_number::after, .request_section_3 .entrance_number::after {
+  content: "2";
+}
+
+.request_section_1 .square_number::after, .request_section_2 .square_number::after, .request_section_3 .square_number::after {
+content:"32.47";
+}
+
+.request_section_2 .house_number::after {
+  content: "№2";
+}
+
+.request_section_3 .house_number::after {
+  content: "№3";
+}
+
+.reqest_mobile a {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-decoration-line: underline;
+color: #282531;
+}
+
+.download_more_btn {
+  margin-top: 3vh;
+}
